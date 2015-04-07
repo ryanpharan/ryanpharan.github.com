@@ -1,0 +1,169 @@
+/* General Styles */
+
+
+body {
+	background: #ffffff;
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+.header-outer, .content-outer, .footer-outer {
+	width: 100%;
+}
+
+.header, .content, .footer {
+	margin: 0 auto;
+	}
+
+.header {
+	background: #f0f0f0;
+	min-height: 100px; 
+	color: #000000; 
+	padding: 20px 0; 
+	width: 100%;
+	border-bottom: 2px solid #e03d4e;
+    text-align: center;
+}
+
+.footer {
+	background: #222222;
+	min-height: 100px; 
+	color: white; 
+	padding: 20px 0; 
+	width: 100%;
+	border-top: 4px solid #e03d4e;
+	text-align: center;
+}
+
+.content {
+	background: white; 
+	height: 1100px; 
+	padding: 20px; 
+	width: 980px;
+	text-align: center;
+	padding-bottom: 50px;
+}
+
+#logo {
+  padding: 20px;
+  float: center;
+}
+
+#nav {
+  float: center;
+}
+
+#nav ul {
+  list-style-type: none;
+  padding:10px 0;
+  border-top: 1px solid #c0c0c0;
+  padding-left: 60px;
+  padding-right: 60px;
+  margin-bottom: 0px;
+}
+
+#nav ul li {
+  font-size: 14px;
+  line-height: 5px;
+  font-weight: normal;
+  padding-left: 23px;
+  padding-right: 23px;
+  display: inline-block;
+
+}
+
+#nav ul li.active a {
+  color: #df3c4d;
+  font-weight: bold;
+}
+
+a, a:visited {
+  color: #000000;
+  text-decoration: none;
+  font-weight: bold;
+  cursor: pointer !important;
+}
+
+a:hover {
+  color: #222222;
+  text-decoration: underline;
+}
+
+#text {
+	margin-bottom: 15px;
+	font-size: 14px;
+	text-align: center;
+	float: center;
+	padding-right: 230px;
+	padding-left: 230px;
+	padding-bottom: 20px;
+}
+
+
+.box {
+  width: 300px;
+  height: 200px;
+  color: #000000;
+  text-align: center;
+  line-height: 20px;
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 16px;
+}
+
+h4 {
+  font-size: 14px;
+  font-weight: normal;
+}
+
+h5 {
+  color: #e03d4e;
+  font-weight: bold;
+}
+
+#text ul {
+  list-style-type: none;
+  border-bottom: 1px solid #c0c0c0;
+  padding:10px 0;
+  margin-bottom: 20px;
+}
+
+#text ul li {
+  font-size: 14px;
+  line-height: 5px;
+  font-weight: normal;
+  padding-left: 23px;
+  padding-right: 23px;
+  display: inline-block;
+  padding-bottom: 50px;
+}
+
+#text ul li.active a {
+  color: #df3c4d;
+  font-weight: bold;
+  padding-bottom: 50px;
+}
+
+#row ul {
+  list-style-type: none;
+  padding:10px 0;
+  margin-bottom: 0px;
+}
+
+#row ul li {
+  font-size: 14px;
+  line-height: 5px;
+  font-weight: normal;
+  padding-left: 23px;
+  padding-right: 23px;
+  display: inline-block;
+
+}
+
+#row ul li.active a {
+  color: #df3c4d;
+  font-weight: bold;
+}
