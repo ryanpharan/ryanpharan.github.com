@@ -92,6 +92,9 @@ header {
 #container {
     width: 900px;
     margin: 0 auto;
+    padding-bottom: 300px;
+    margin-bottom: 400px;
+    height: 500px;
 }
 
 
