@@ -79,18 +79,7 @@ header {
   font-weight: bold;
 }
 
-.footer {
-  background: #000;
-  min-height: 20px; 
-  color: white; 
-  padding: 20px 0;
-  margin-top: 40px; 
-  width: 100%;
-  text-align: center;
-  font-family: Helvetica, Arial, sans-serif;
-  font-size: 9px;
-  border-top: 2px solid #00bdf4;
-}
+
 
 /* Content */
 
@@ -109,7 +98,10 @@ header {
 /* Button */
 .button-wrapper {
   width: 100%;
-  margin: 200px;
+  margin: 100px;
+  padding-left: 50px;
+  float: center;
+  height: 100%;
 }
 
 .button {
@@ -127,15 +119,29 @@ header {
 }
 
 .one {
-  color: #14bdd1;
-  border: 1px solid #14BDD1;
+  color: #fff;
   border-radius: 50px;
-  background: transparent;
+  background: #000;
 }
 
   .one:hover {
     color: #ffffff;
-    background: #14bdd1;
+    background: #00bdf4;
   }
+
+/* Footer */
+
+.footer {
+  background: #000;
+  min-height: 20px; 
+  color: white; 
+  padding: 20px 0;
+  margin-top: 500px; 
+  width: 100%;
+  text-align: center;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 9px;
+  border-top: 2px solid #00bdf4;
+}
 
 
